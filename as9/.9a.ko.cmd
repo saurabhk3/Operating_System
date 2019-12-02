@@ -1,0 +1,1 @@
+cmd_/home/saurabh/Documents/OS/as9/9a.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/saurabh/Documents/OS/as9/9a.ko /home/saurabh/Documents/OS/as9/9a.o /home/saurabh/Documents/OS/as9/9a.mod.o ;  true
